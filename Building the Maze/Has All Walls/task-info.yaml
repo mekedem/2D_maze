@@ -4,15 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 184
-        length: 6
+        length: 32
         placeholder_text: "# TODO"
         initial_state:
           length: 6
           offset: 184
         initialized_from_dependency: false
         encrypted_possible_answer: itqFAxCfGXCbNo5i3CwB0OqqxPJSl7UTahAUqienaFo=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: False not in self.walls.values()
     learner_created: false
   - name: __init__.py
     visible: false
@@ -26,6 +27,13 @@ files:
   - name: output.py
     visible: true
     learner_created: false
+  - name: cell_walls.png
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeb6sbUHqOObkQgtVVBjNHSFa2TwpeEb8_P7nIXwgTxnvknQg/viewform?usp=pp_url&entry.2103429047=Building+the+Maze+/+Has+All+Walls
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 May 2026 11:31:15 UTC"
+record: 4

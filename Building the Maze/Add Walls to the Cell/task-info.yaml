@@ -4,15 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 117
-        length: 21
+        length: 20
         placeholder_text: "'add 2 more': 'walls'"
         initial_state:
           length: 21
           offset: 117
         initialized_from_dependency: false
         encrypted_possible_answer: WLZKE0W+n23RxIdAG0lbBeoFQw4Sz5k6bTpV6mbm1nk=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: "'E': True, 'W': True"
     learner_created: false
   - name: __init__.py
     visible: false
@@ -26,6 +27,13 @@ files:
   - name: output.py
     visible: true
     learner_created: false
+  - name: cell_walls.png
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeb6sbUHqOObkQgtVVBjNHSFa2TwpeEb8_P7nIXwgTxnvknQg/viewform?usp=pp_url&entry.2103429047=Building+the+Maze+/+Add+Walls+to+the+Cell
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 May 2026 11:19:41 UTC"
+record: 3

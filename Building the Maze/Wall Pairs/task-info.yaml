@@ -4,15 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 50
-        length: 26
+        length: 19
         placeholder_text: "'add 2 more': 'wall pairs'"
         initial_state:
           length: 26
           offset: 50
         initialized_from_dependency: false
         encrypted_possible_answer: f5LAKjp/WFrdqhuSOEOTF0GseNVoUNsDquNNNjbnP+0=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: "'E': 'W', 'W': 'E'}"
     learner_created: false
   - name: __init__.py
     visible: false
@@ -27,5 +28,8 @@ files:
     visible: true
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeb6sbUHqOObkQgtVVBjNHSFa2TwpeEb8_P7nIXwgTxnvknQg/viewform?usp=pp_url&entry.2103429047=Building+the+Maze+/+Wall+Pairs
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 May 2026 11:35:42 UTC"
+record: 5

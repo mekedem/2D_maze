@@ -3,16 +3,17 @@ files:
   - name: maze.py
     visible: true
     placeholders:
-      - offset: 157
-        length: 23
+      - offset: 158
+        length: 7
         placeholder_text: '''create ny by nx Cells'''
         initial_state:
           length: 23
           offset: 157
         initialized_from_dependency: false
         encrypted_possible_answer: 0CCLFCq+K6cNeuMx0Hf7bjTbdUK7rNyl4sb/h81q+dAr+8qDoHAl4XQC0iuG5YjwW/Dd9W9CHL06CMpmQdN9eg==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: "1,2,3,4"
     learner_created: false
   - name: __init__.py
     visible: false
@@ -29,6 +30,13 @@ files:
   - name: output.py
     visible: true
     learner_created: false
+  - name: maze_grid.png
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeb6sbUHqOObkQgtVVBjNHSFa2TwpeEb8_P7nIXwgTxnvknQg/viewform?usp=pp_url&entry.2103429047=Building+the+Maze+/+Maze
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 May 2026 12:04:21 UTC"
+record: 7

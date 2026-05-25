@@ -4,15 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 68
-        length: 22
+        length: 4
         placeholder_text: '''Assign cell position'''
         initial_state:
           length: 22
           offset: 68
         initialized_from_dependency: false
         encrypted_possible_answer: 9qbiUC7hMANfJ6iFnRSUJw==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: "x, y"
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -31,5 +32,8 @@ files:
     is_binary: true
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeb6sbUHqOObkQgtVVBjNHSFa2TwpeEb8_P7nIXwgTxnvknQg/viewform?usp=pp_url&entry.2103429047=Building+the+Maze+/+Create+a+Cell
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 May 2026 11:12:41 UTC"
+record: 2
